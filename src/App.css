@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
 * {
   padding: 0;
@@ -6,10 +7,15 @@
 }
 body {
   font-family: "Poppins", serif;
+  background-color: #eff0f2;
 }
 
 .header {
-  margin-top: 20px;
+  background-color: #FFFF;
+
+}
+.headeer {
+  padding: 10px;
   max-width: 1440px;
   display: flex;
   justify-content: space-between;
@@ -21,10 +27,12 @@ body {
 }
 .logo-nav {
   display: flex;
+  align-items: center;
+  gap: 1.2rem;
 }
-nav {
-  margin-top: 19px;
-  margin-left: 70px;
+
+nav{
+  margin-left: 40px;
 }
 nav ul {
   gap: 1.5rem;
@@ -38,37 +46,83 @@ nav ul {
 
 nav li {
   font-size: 20px;
+  
+}
+nav li:hover{
+  color: #FD561E;
+
 }
 
 .notif {
-  margin-top: 19px;
-  margin-left: 330px;
+  align-items: center;
+  display: flex;
+  gap: 1.2rem;
+}
+
+.notiff {
+  align-items: center;
   display: flex;
   gap: 1.2rem;
 }
 
 .notif input {
   padding: 4px;
-
   border: #adb5bd 1px solid;
   outline: none;
   width: 260px;
-  height: 40px;
+  height: 30px;
   border-radius: 24px;
 }
 
-.notif img {
-  margin-top: 13px;
+.notiff img {
+
   height: 29px;
 }
 
-.profile-header {
-  margin-top: 19px;
-  display: flex;
-  gap: 1.2rem;
-  margin-right: 45px;
+.profile-header img{
+  width: 100%;
 }
 
-.profile-header p {
-  margin-top: 10px;
+.profile-header {
+ 
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+
+}
+
+
+/*  */
+.minii{
+  background-color: #FFFF;
+  padding: 40px;
+  margin: auto;
+  
+  max-width: 1200px;
+  align-items: center;
+   border-radius: 10px;
+  margin-top: 90px; 
+}
+.mini{
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.sub-mini{
+  display: flex;
+  gap: 10px;
+}
+
+.href{
+  background-color: #E9ECEF;
+  padding: 12px;
+  border-radius: 6px;
+ 
+}
+
+.update a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
 }
