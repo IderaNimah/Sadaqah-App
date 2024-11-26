@@ -3,7 +3,6 @@ function Minimain() {
     <>
       <AllMini />
       <Joint />
-      
     </>
   );
 }
@@ -33,13 +32,15 @@ function Joint() {
   return (
     <div className="joint">
       <div className="donation">
-        <h2>Create a donation group</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing eift ed Etiam eu
-          turpis molestie, dictum est.
-        </p>
-        <div>
-          <a href="#">Create Group</a>
+        <div className="don">
+          <h2>Create a donation group</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing eift ed Etiam eu
+            turpis molestie, dictum est.
+          </p>
+          <div className="donlink">
+            <a href="#" className="donhref">Create Group</a>
+          </div>
         </div>
         <div>
           <img src="./assets/Love.png" alt="Love" />
@@ -47,15 +48,17 @@ function Joint() {
       </div>
 
       <div className="refer">
-        <h2>Refer a friend</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing eift ed Etiam eu
-          turpis molestie, dictum est.
-        </p>
-        <div>
-          <a href="#">Refer a friend</a>
+        <div className="ref">
+          <h2>Refer a friend</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing eift ed Etiam eu
+            turpis molestie, dictum est.
+          </p>
+          <div className="referlink"> 
+            <a href="#" className="referhref">Refer a friend</a>
+          </div>
         </div>
-        <div>
+        <div className="referimg">
           <img src="./assets/Illustration.png" alt="Love" />
         </div>
       </div>
