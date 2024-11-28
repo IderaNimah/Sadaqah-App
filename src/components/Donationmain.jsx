@@ -65,6 +65,7 @@ const donationGroupTwo = [
 function DonationMain() {
   return (
     <>
+      <Entre/>
       <div className="donation-container">
         {donationGroupOne.map((donor, index) => (
           <Donationgroup key={index} donor={donor} />
@@ -79,6 +80,15 @@ function DonationMain() {
   );
 }
 
+function Entre(){
+  return(
+    <div className="enter">
+      <h2>Donation Groups</h2>
+      <p> View All</p>
+    </div>
+  )
+}
+
 function Donationgroup({ donor }) {
   return (
     <section className="profile">
@@ -87,11 +97,12 @@ function Donationgroup({ donor }) {
         <h3>{donor.name}</h3>
       </div>
       <p>{donor.ongoing}</p>
-      <div>
-        <p>People joined: {donor.number}</p>
+      <div className="profilefooter">
+        <p>People joined: <span className="numco">{donor.number}</span></p>
         <img src={donor.footerImg} alt={`${donor.name} footer`} />
       </div>
     </section>
+  
   );
 }
 

@@ -207,27 +207,49 @@ text-decoration: none;
   align-items: center;
   gap: 10px;
 }
-
+.coll-one img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 .profile{
-  margin-left: 20px;
- 
-  margin-top: 40px;
+  
   background: #ffff;
-  padding: 30px;
+  padding: 20px;
   width: 300px;
   border-radius: 5px;
 }
 
-.donation-container{
- display: flex;
- flex-wrap: wrap;
- margin-left: 145px;
- 
+.profile h3 {
+  font-size: 1.2em;
+  margin: 8px 0;
 }
 
-.donation-container-two{
+.profilefooter{
   display: flex;
-  flex-wrap: wrap;
-  margin-left: 145px;
-  
+  align-items: center;
+ justify-content: space-between;
+ margin-top: 12px;
+}
+
+ .donation-container,
+ .donation-container-two {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 18px; /* Space between components */
+   justify-content: center; /* Center alignment for components */
+   margin-bottom: -20px; /* Space between the two sections */
+   margin-top: 40px;
  }
+
+ .numco{
+  color:#FD561E;
+ }
+
+.enter{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   margin: 60px auto;
+  max-width: 1440px;
+}
