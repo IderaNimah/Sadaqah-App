@@ -66,6 +66,8 @@ function DonationMain() {
   return (
     <>
       <Entre/>
+      <div className="major-donation">
+
       <div className="donation-container">
         {donationGroupOne.map((donor, index) => (
           <Donationgroup key={index} donor={donor} />
@@ -75,6 +77,8 @@ function DonationMain() {
         {donationGroupTwo.map((donor, index) => (
           <Donationgroup key={index} donor={donor} />
         ))}
+      </div>
+
       </div>
     </>
   );

@@ -89,7 +89,7 @@ nav li:hover {
   background-color: #ffff;
   padding: 40px;
   margin: auto;
-
+  border: 1px #DEE2E6 solid;
   max-width: 1200px;
   align-items: center;
   border-radius: 10px;
@@ -163,29 +163,28 @@ nav li:hover {
   text-decoration: none;
 }
 
-.don h2{
+.don h2 {
   margin-bottom: 15px;
 }
 
-.don p{
-  color: #CED4DA;
-  ;
+.don p {
+  color: #ced4da;
 }
-.referlink{
+.referlink {
   margin-top: 55px;
 }
-.referhref{
+.referhref {
   background-color: #ffff;
-  color:#FD561E;
+  color: #fd561e;
   padding: 11px;
-  border-radius: 5px ;
-  border: 2px solid #FD561E;
+  border-radius: 5px;
+  border: 2px solid #fd561e;
 }
 
-.referlink a{
-text-decoration: none;
+.referlink a {
+  text-decoration: none;
 }
-.ref{
+.ref {
   width: 50%;
   margin-left: 18px;
 }
@@ -197,23 +196,21 @@ text-decoration: none;
   margin-top: 12px;
 }
 
-.ref p{
-  color: #343A40;
-  ;
+.ref p {
+  color: #343a40;
 }
 /*  */
-.coll-one{
+.coll-one {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.coll-one img{
+.coll-one img {
   max-width: 100%;
   height: auto;
   display: block;
 }
-.profile{
-  
+.profile {
   background: #ffff;
   padding: 20px;
   width: 300px;
@@ -225,31 +222,33 @@ text-decoration: none;
   margin: 8px 0;
 }
 
-.profilefooter{
+.profilefooter {
   display: flex;
   align-items: center;
- justify-content: space-between;
- margin-top: 12px;
+  justify-content: space-between;
+  margin-top: 11px;
 }
 
- .donation-container,
- .donation-container-two {
-   display: flex;
-   flex-wrap: wrap;
-   gap: 18px; /* Space between components */
-   justify-content: center; /* Center alignment for components */
-   margin-bottom: -20px; /* Space between the two sections */
-   margin-top: 40px;
- }
+.major-donation {
+  margin-top: -45px;
+}
+.donation-container,
+.donation-container-two {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px; /* Space between components */
+  justify-content: center; /* Center alignment for components */
+  margin-bottom: 20px; /* Space between the two sections */
+}
 
- .numco{
-  color:#FD561E;
- }
+.numco {
+  color: #fd561e;
+}
 
-.enter{
+.enter {
   display: flex;
   justify-content: space-between;
   align-items: center;
-   margin: 60px auto;
+  margin: 60px auto;
   max-width: 1440px;
 }
