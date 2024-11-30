@@ -231,6 +231,7 @@ nav li:hover {
 
 .major-donation {
   margin-top: -45px;
+  margin-bottom: 74px;
 }
 .donation-container,
 .donation-container-two {
@@ -249,6 +250,41 @@ nav li:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 60px auto;
+  margin: 69px auto;
+  max-width: 1440px;
+}
+
+/*  */
+.mainjoin{
+  background: #ffff;
+  align-items: center;
+  padding: 20px;
+  width: 300px;
+  border-radius: 7px;
+}
+.joinh img{
+  width: 100%;
+  cursor: pointer;
+}
+
+.let{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px; /* Space between components */
+  justify-content: center; /* Center alignment for components */
+  margin-bottom: 20px; 
+}
+
+.joins{
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+
+.enterjoin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 39px auto;
   max-width: 1440px;
 }

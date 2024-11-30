@@ -1,5 +1,6 @@
 import "./App.css";
 import DonationMain from "./components/Donationmain.jsx";
+import JoinDonation from "./components/JoinDonation.jsx";
 import Minimain from "./components/Minimain.jsx";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Minimain />
       <DonationMain/>
+      <JoinDonation/>
     </>
   );
 }
