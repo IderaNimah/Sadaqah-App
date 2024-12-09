@@ -9,10 +9,12 @@ const JoinGroup = [
     subheader: "Biweekly Podcast Contribution",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam eu molestie, dictum est...",
-    number: "N15000 of N20000 goal",
+      boldednumber: "N15000 ",
+    number: "of N20000 goal",
     subfootertext: "Group Developer Boys from GR",
     footertext: "Created by",
     footertextimg: "./assets/hifoot.png",
+    footername : "@iman"
   },
 
   {
@@ -23,10 +25,12 @@ const JoinGroup = [
     subheader: "Funding for Mosque’s New Boreh...",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam eu molestie, dictum est...",
-    number: "N15000 of N20000 goal",
+    boldednumber: "N15000 ",
+    number: "of N20000 goal",
     subfootertext: "Group Developer Boys from GR",
     footertext: "Created by",
     footertextimg: "./assets/hifoot.png",
+    footername : "@kebirat"
   },
 
   {
@@ -37,10 +41,12 @@ const JoinGroup = [
     subheader: "Care Health Package",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam eu molestie, dictum est...",
-    number: "N15000 of N20000 goal",
+      boldednumber: "N15000 ",
+      number: "of N20000 goal",
     subfootertext: "Group Developer Boys from GR",
     footertext: "Created by",
     footertextimg: "./assets/hifoot.png",
+    footername : "@johnboy"
   },
 
   {
@@ -51,10 +57,13 @@ const JoinGroup = [
     subheader: "Children Welfare for Ward 5",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam eu molestie, dictum est...",
-    number: "N15000 of N20000 goal",
+
+     boldednumber: "N15000 ",
+    number: "of N20000 goal",
     subfootertext: "Group Developer Boys from GR",
     footertext: "Created by",
     footertextimg: "./assets/hifoot.png",
+    footername : "@kaz"
   },
 ];
 
@@ -92,21 +101,26 @@ function Subdonation({ joindonor }) {
         <p>{joindonor.subtext}</p>
       </div>
 
-      <div>
+      <div className="joinss">
         <h3>{joindonor.subheader}</h3>
         <p>{joindonor.paragraph}</p>
         <p>
-          <span></span>
+          <span className="bold">{joindonor.boldednumber}</span>
           {joindonor.number}
         </p>
         <input type="range" />
       </div>
 
-      <div>
+      <div className="hhh"  >
         <p>{joindonor.subfootertext}</p>
-        <p>{joindonor.footertext}</p>
-        <img src={joindonor.footertextimg} alt="Footer image" />
+        <div className="joinfooter">
+        <p>{joindonor.footertext} </p>
+       
+         <img src={joindonor.footertextimg} alt="Footer image" />
+         <span className="hh">{joindonor.footername}</span>
+         
       </div>
+        </div>
     </section>
   );
 }
@@ -118,10 +132,12 @@ Subdonation.propTypes = {
     subtext: PropTypes.string.isRequired,
     subheader: PropTypes.string.isRequired,
     paragraph: PropTypes.string.isRequired,
+    boldednumber: PropTypes.string.isRequired,
     number: PropTypes.string.isRequired,
     subfootertext: PropTypes.string.isRequired,
     footertext: PropTypes.string.isRequired,
     footertextimg: PropTypes.string.isRequired,
+    footername: PropTypes.string.isRequired,
   }).isRequired,
 };
 

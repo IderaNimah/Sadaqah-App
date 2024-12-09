@@ -1,4 +1,5 @@
 import "./App.css";
+import Header from "./components/Header.jsx";
 import DonationMain from "./components/Donationmain.jsx";
 import JoinDonation from "./components/JoinDonation.jsx";
 import Minimain from "./components/Minimain.jsx";
@@ -14,36 +15,7 @@ function App() {
   );
 }
 
-function Header() {
-  return (
-    <div className="header">
-      <div className="headeer">
-        <div className="logo-nav">
-          <div className="logo">
-            <h1>Sadaqah</h1>
-          </div>
-          <nav>
-            <ul>
-              <li>Home</li>
-              <li>Explore</li>
-              <li>Add Card</li>
-            </ul>
-          </nav>
-        </div>
-        <div className="notif">
-          <div className="notiff">
-            <input type="text" placeholder="Search" />
-            <img src="./assets/notification.png" alt="notification" />
-          </div>
 
-          <div className="profile-header">
-            <img src="./assets/Profileheader.png" alt="profileheader" />
-            <p>ijtas_muiz</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
+
 
 export default App;
