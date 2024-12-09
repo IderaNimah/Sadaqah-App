@@ -46,8 +46,12 @@ nav ul {
 nav li {
   font-size: 20px;
 }
-nav li:hover {
+.nav-link:hover {
   color: #fd561e;
+}
+.nav-link{
+  text-decoration: none;
+  color: #343A40;
 }
 
 .notif {
