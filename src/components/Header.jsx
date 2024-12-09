@@ -25,8 +25,10 @@ function Header() {
           <div className="notif">
             <div className="notiff">
               <input type="text" placeholder="Search" />
-              <img src="./assets/notification.png" alt="notification" />
-            </div>
+              <button className="search-button">
+            <img src="./assets/search-normal.png" alt="search icon" className="searchicon" />
+          </button> 
+          </div>
   
             <div className="profile-header">
               <img src="./assets/Profileheader.png" alt="profileheader" />

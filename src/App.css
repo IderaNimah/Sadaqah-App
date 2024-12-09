@@ -61,22 +61,27 @@ nav li {
 }
 
 .notiff {
-  align-items: center;
   display: flex;
-  gap: 1.2rem;
+    flex-direction: row-reverse;
+    align-items: center;
+    border: #ADB5BD 1px solid;
+    border-radius: 22px;
+    padding: 10px;
+    height: 27px;
+    width: 246px;
+    background-color: white;
 }
 
 .notif input {
-  padding: 4px;
-  border: #adb5bd 1px solid;
+  border: none;
   outline: none;
-  width: 260px;
-  height: 30px;
-  border-radius: 24px;
+  flex-grow: 1;
+  font-size: 17px;
+  background-color: white;
 }
 
 .notiff img {
-  height: 29px;
+  height: 20px;
 }
 
 .profile-header img {
@@ -354,3 +359,42 @@ nav li {
 .bold{
   font-weight: bolder;
 }
+
+/* Search bar container */
+.search-container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 5px;
+  width: 290px; /* Adjust width as needed */
+  background-color: white; /* Set the background to white */
+}
+
+/* Search input */
+.search-input {
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  font-size: 14px;
+  padding: 8px;
+  background-color: white; /* Set the input field background to white */
+}
+
+/* Search button */
+.search-button {
+  background-color: white; /* Set the button background to white */
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.search-input::placeholder {
+  color: black;
+  font-weight: 500;
+  font-family: "Poppins", serif;
+
+ 
+}
+
