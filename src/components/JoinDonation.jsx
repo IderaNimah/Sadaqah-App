@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import { useState } from "react";
 
 const JoinGroup = [
   {
@@ -89,57 +90,73 @@ function JoinEntre(){
     )
   }
 
-function Subdonation({ joindonor }) {
-  return (
-    <section className="mainjoin">
-      <div className="joinh">
-        <img src={joindonor.joinheaderimg} alt="Join group header" />
-      </div>
-
-      <div className="joins">
-        <img src={joindonor.joinsubimg} alt="Join sub image" />
-        <p>{joindonor.subtext}</p>
-      </div>
-
-      <div className="joinss">
-        <h3>{joindonor.subheader}</h3>
-        <p>{joindonor.paragraph}</p>
-        <p>
-          <span className="bold">{joindonor.boldednumber}</span>
-          {joindonor.number}
-        </p>
-        <input type="range" />
-      </div>
-
-      <div className="hhh"  >
-        <p>{joindonor.subfootertext}</p>
-        <div className="joinfooter">
-        <p>{joindonor.footertext} </p>
-       
-         <img src={joindonor.footertextimg} alt="Footer image" />
-         <span className="hh">{joindonor.footername}</span>
-         
-      </div>
+  
+  
+  function Subdonation({ joindonor }) {
+    // State to track the range value
+    const [rangeValue, setRangeValue] = useState(50); // Default value is 50 (mid-range)
+  
+    // Handle slider value change
+    const handleRangeChange = (event) => {
+      setRangeValue(event.target.value);
+    };
+  
+    return (
+      <section className="mainjoin">
+        <div className="joinh">
+          <img src={joindonor.joinheaderimg} alt="Join group header" />
         </div>
-    </section>
-  );
-}
-
-Subdonation.propTypes = {
-  joindonor: PropTypes.shape({
-    joinheaderimg: PropTypes.string.isRequired,
-    joinsubimg: PropTypes.string.isRequired,
-    subtext: PropTypes.string.isRequired,
-    subheader: PropTypes.string.isRequired,
-    paragraph: PropTypes.string.isRequired,
-    boldednumber: PropTypes.string.isRequired,
-    number: PropTypes.string.isRequired,
-    subfootertext: PropTypes.string.isRequired,
-    footertext: PropTypes.string.isRequired,
-    footertextimg: PropTypes.string.isRequired,
-    footername: PropTypes.string.isRequired,
-  }).isRequired,
-};
+  
+        <div className="joins">
+          <img src={joindonor.joinsubimg} alt="Join sub image" />
+          <p>{joindonor.subtext}</p>
+        </div>
+  
+        <div className="joinss">
+          <h3>{joindonor.subheader}</h3>
+          <p>{joindonor.paragraph}</p>
+          <p>
+            <span className="bold">{joindonor.boldednumber}</span>
+            {joindonor.number}
+          </p>
+          <input
+            type="range"
+            value={rangeValue}
+            onChange={handleRangeChange}
+            style={{
+              background: `linear-gradient(to right, #fd561e ${rangeValue}%, #ddd ${rangeValue}%)`,
+            }}
+          />
+        </div>
+  
+        <div className="hhh">
+          <p>{joindonor.subfootertext}</p>
+          <div className="joinfooter">
+            <p>{joindonor.footertext} </p>
+            <img src={joindonor.footertextimg} alt="Footer image" />
+            <span className="hh">{joindonor.footername}</span>
+          </div>
+        </div>
+      </section>
+    );
+  }
+  
+  Subdonation.propTypes = {
+    joindonor: PropTypes.shape({
+      joinheaderimg: PropTypes.string.isRequired,
+      joinsubimg: PropTypes.string.isRequired,
+      subtext: PropTypes.string.isRequired,
+      subheader: PropTypes.string.isRequired,
+      paragraph: PropTypes.string.isRequired,
+      boldednumber: PropTypes.string.isRequired,
+      number: PropTypes.string.isRequired,
+      subfootertext: PropTypes.string.isRequired,
+      footertext: PropTypes.string.isRequired,
+      footertextimg: PropTypes.string.isRequired,
+      footername: PropTypes.string.isRequired,
+    }).isRequired,
+  };
+  
 
 export default JoinDonation;
 
