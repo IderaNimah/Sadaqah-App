@@ -397,13 +397,105 @@ nav li {
 }
 
 /*  */
-.headexplore{
-  
+.headexplore {
   margin: auto;
   margin-top: 50px;
   width: 75%;
-
 }
-.headexplore h2{
+.headexplore h2 {
   margin-top: 60px;
+}
+
+/* Cards */
+.addCard {
+  margin: auto;
+  margin-top: 50px;
+  width: 75%;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  justify-content: center;
+}
+.blueCard {
+  margin-top: 22px;
+  background: #1369b9;
+  padding: 20px;
+  width: 420px;
+  height: 220px;
+  border-radius: 15px;
+}
+.blueCard img {
+  float: right;
+}
+
+.blueCard h2 {
+  margin-top: 80px;
+  letter-spacing: 5px;
+  margin-left: 30px;
+  align-items: center;
+  color: #ffff;
+}
+.sublue {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffff;
+}
+/*  */
+.orangeCard {
+  margin-top: 22px;
+  background: #fe9a78;
+  padding: 20px;
+  width: 420px;
+  height: 220px;
+  border-radius: 15px;
+}
+.orangeCard img {
+  float: right;
+}
+
+.orangeCard h2 {
+  margin-top: 80px;
+  letter-spacing: 5px;
+  margin-left: 30px;
+  align-items: center;
+  color: #ffff;
+}
+.suborange {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffff;
+}
+
+/*  */
+.emptyCard{
+  margin-top: 22px;
+  background: #ffff;
+  padding: 20px;
+  width: 420px;
+  height: 220px;
+  border-radius: 15px;
+  border: 2px #CED4DA dashed;
+  
+  
+}
+
+.center{
+  margin: 90px auto;
+  width: 50%;
+  align-items: center;
+}
+
+/*  */
+.trash{
+  margin-top: 13px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
 }
