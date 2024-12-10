@@ -92,6 +92,10 @@ nav li {
   align-items: center;
   gap: 1.2rem;
 }
+.profile-nav-link{
+  text-decoration: none;
+  color: #343a40;
+}
 
 /*  */
 .minii {
@@ -474,26 +478,24 @@ nav li {
 }
 
 /*  */
-.emptyCard{
-  margin-top: 22px;
+.emptyCard {
+  /* margin-top: 15px; */
   background: #ffff;
   padding: 20px;
   width: 420px;
   height: 220px;
   border-radius: 15px;
-  border: 2px #CED4DA dashed;
-  
-  
+  border: 2px #ced4da dashed;
 }
 
-.center{
+.center {
   margin: 90px auto;
   width: 50%;
   align-items: center;
 }
 
 /*  */
-.trash{
+.trash {
   margin-top: 13px;
   display: flex;
   align-items: center;

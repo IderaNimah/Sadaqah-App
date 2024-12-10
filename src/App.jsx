@@ -6,6 +6,7 @@ import JoinDonation from "./components/JoinDonation.jsx";
 import Minimain from "./components/Minimain.jsx";
 import Explore from "./components/Explore.jsx";
 import AddCard from "./components/AddCard.jsx";
+import Profile from "./components/Profile.jsx";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         />
         <Route path="/explore" element={<Explore />} />
         <Route path="/addcard" element={<AddCard />} />
+        <Route path="/addcard" element={<Profile />} />
       </Routes>
     </BrowserRouter>
   );
