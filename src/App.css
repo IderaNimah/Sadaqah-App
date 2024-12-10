@@ -92,7 +92,7 @@ nav li {
   align-items: center;
   gap: 1.2rem;
 }
-.profile-nav-link{
+.profile-nav-link {
   text-decoration: none;
   color: #343a40;
 }
@@ -479,7 +479,6 @@ nav li {
 
 /*  */
 .emptyCard {
-  /* margin-top: 15px; */
   background: #ffff;
   padding: 20px;
   width: 420px;
@@ -494,10 +493,84 @@ nav li {
   align-items: center;
 }
 
-/*  */
+/* Trash */
 .trash {
   margin-top: 13px;
   display: flex;
   align-items: center;
   gap: 7px;
+}
+
+/* Profile */
+.myProfile {
+  margin: auto;
+  margin-top: 50px;
+  width: 75%;
+}
+
+.subProfile {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+.subProfile img{
+  cursor: pointer;
+}
+
+.subProfile h4 {
+  color: #1369b9;
+  font-weight: 500;
+}
+
+.profileField {
+  margin-top: 15px;
+}
+
+.profileField input {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  border: 1px solid #adb5bd;
+  border-radius: 6px;
+  padding: 13px;
+  height: 20px;
+  width: 400px; /* Adjust width as needed */
+  background-color: white; /* Set the background to white */
+}
+
+.profileField input::placeholder {
+  color: #212529;
+  font-weight: 400;
+  font-size: 17px;
+  font-family: "Poppins", serif;
+}
+.profileField h4{
+  font-size: 20px;
+}
+.profilePin {
+  margin-top: 30px;
+  line-height: 30px;
+}
+.profilePin h5{
+  font-size: 20px;
+  font-weight: 400;
+}
+.profilePin h4{
+  color: #1369b9;
+}
+.profileButton {
+  margin-top: 15px;
+}
+
+.profileButton button {
+  padding: 15px;
+  background: #fd561e;
+  color: #ffff;
+  border-radius: 5px;
+  border: none;
+  font-size: 19px;
+  font-weight: 500;
+  cursor: pointer;
 }

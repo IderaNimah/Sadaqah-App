@@ -21,12 +21,13 @@ function App() {
               <Minimain />
               <DonationMain />
               <JoinDonation />
+
             </>
           }
         />
         <Route path="/explore" element={<Explore />} />
         <Route path="/addcard" element={<AddCard />} />
-        <Route path="/addcard" element={<Profile />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
     </BrowserRouter>
   );
