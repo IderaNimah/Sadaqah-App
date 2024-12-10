@@ -17,7 +17,7 @@ function Header() {
                 <Link to="/explore" className="nav-link">Explore</Link>
                 </li>
                 <li>
-                <Link to="/" className="nav-link">Add Card</Link>
+                <Link to="/addcard" className="nav-link">Add Card</Link>
                 </li>
               </ul>
             </nav>

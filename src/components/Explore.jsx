@@ -1,28 +1,24 @@
-import { useState } from "react";
+import JoinDonation from "./JoinDonation"
 
 function Explore() {
-    
-      const [searchTerm, setSearchTerm] = useState("");
-    
-      const handleSearchChange = (e) => {
-        setSearchTerm(e.target.value);
-      };
-    
-      return (
-        <div className="search-container">
-          <input
-            type="text"
-            placeholder="Search"
-            value={searchTerm}
-            onChange={handleSearchChange}
-            className="search-input"
+  return (
+  <>
+    <div className="headexplore">
+      <h2>Explore</h2>
+      <div className="search-container">
+        <input type="text" placeholder="Search" className="search-input" />
+        <button className="search-button">
+          <img
+            src="./assets/search-normal.png"
+            alt="search icon"
+            className="search-icon"
           />
-          <button className="search-button">
-            <img src="./assets/search-normal.png" alt="search icon" className="search-icon" />
-          </button>
-        </div>
-      );
-    }
-    
-    export default Explore;
-    
+        </button>
+      </div>
+      </div>
+      <JoinDonation/>
+  </>
+  );
+}
+
+export default Explore;
