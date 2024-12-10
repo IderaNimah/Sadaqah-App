@@ -514,9 +514,7 @@ nav li {
   align-items: center;
   gap: 22px;
 }
-.subProfile img{
-  cursor: pointer;
-}
+
 
 .subProfile h4 {
   color: #1369b9;
