@@ -570,3 +570,12 @@ nav li {
   font-weight: 500;
   cursor: pointer;
 }
+
+@media (max-width: 428px) {
+  .headeer{
+    display: none;
+  }
+  .joint{
+    flex-direction: column;
+  }
+}
