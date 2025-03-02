@@ -43,7 +43,7 @@ function Joint() {
           </div>
         </div>
         <div>
-          <img src="./assets/Love.png" alt="Love" />
+          <img src="./assets/Love.png" alt="Love" className="don-img" />
         </div>
       </div>
 
