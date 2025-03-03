@@ -793,7 +793,12 @@ nav li {
 }
 
 /* Profile */
+.myProfile {
+  margin: auto;
+  margin-top: 50px;
+  width: 91%;
+}
 .profileField input{
-  width: 100%;
+  width: 90%;
 }
 }
