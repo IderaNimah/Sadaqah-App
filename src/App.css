@@ -724,4 +724,8 @@ nav li {
   align-items: center;
   margin: 26px;
 }
+.joinss input[type="range"] {
+  
+  width: 100%;
+}
 }
