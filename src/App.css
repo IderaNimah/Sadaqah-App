@@ -791,4 +791,9 @@ nav li {
 .blueCard, .orangeCard, .emptyCard{
   width: 361px;
 }
+
+/* Profile */
+.profileField input{
+  width: 100%;
+}
 }
