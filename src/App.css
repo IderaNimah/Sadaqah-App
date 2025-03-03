@@ -572,31 +572,77 @@ nav li {
 }
 
 @media (max-width: 428px) {
-  .headeer{
+  .headeer {
     display: flex;
     margin-left: unset;
+    position: relative;
   }
 
   .logo h1 {
     font-size: 2em;
-}
-  nav ul {
+    cursor: pointer; /* Show it's clickable */
+  }
+  
+  /* Hide desktop nav on mobile */
+  .desktop-nav {
     display: none;
   }
-  .profile-nav-link{
+  
+  /* Mobile nav styling - full width and fixed during scroll */
+  .mobile-nav {
+    position: fixed; /* Fixed position so it doesn't scroll */
+    top: 60px; /* Adjust based on your header height */
+    left: -39px;
+    width: 100%; /* Full width to match screen */
+    background-color: white;
+    z-index: 100;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mobile-nav ul {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 0;
+    width: 100%; /* Ensure the list uses full width */
+  }
+  
+  .mobile-nav li {
+    margin: 0.75rem 0;
+    list-style: none;
+    width: 100%; /* Full width list items */
+    text-align: center;
+  }
+  
+  .mobile-nav .nav-link {
+    display: block;
+    width: 100%; /* Full width links */
+    padding: 0.75rem 0;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+  
+  .profile-nav-link {
     display: none;
   }
-  .notiff{
+  
+  .notiff {
     border: unset;
     width: unset;
     padding: unset;
   }
+  
   .notif input {
     display: none;
   }
-  .mobile{
+  
+  .mobile {
     display: flex;
   }
+
+
   .joint{
     flex-direction: column;
   }
