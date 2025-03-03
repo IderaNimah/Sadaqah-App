@@ -792,6 +792,16 @@ nav li {
   width: 361px;
 }
 
+/* Explore */
+.headexplore {
+  margin: auto;
+  margin-top: unset;
+  width: 85%;
+}
+.headexplore h2{
+  margin-top: 28px;
+}
+
 /* Profile */
 .myProfile {
   margin: auto;
