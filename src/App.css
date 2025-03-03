@@ -771,7 +771,24 @@ nav li {
   margin: 26px;
 }
 .joinss input[type="range"] {
-  
   width: 100%;
+}
+
+/* Add Cards */
+.addCard{
+  width: 100%;
+  margin-top: 26px;
+  display: flex;
+  flex-direction: column;
+}
+.addCard h2{
+  margin-left: 14px;
+}
+.cards{
+  flex-direction: column;
+  width: unset;
+}
+.blueCard, .orangeCard, .emptyCard{
+  width: 361px;
 }
 }
