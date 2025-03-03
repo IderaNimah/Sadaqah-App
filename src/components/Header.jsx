@@ -5,6 +5,7 @@ function Header() {
       <div className="header">
         <div className="headeer">
           <div className="logo-nav">
+            
             <div className="logo">
               <h1>Sadaqah</h1>
             </div>

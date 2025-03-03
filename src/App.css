@@ -573,7 +573,24 @@ nav li {
 
 @media (max-width: 428px) {
   .headeer{
+    display: flex;
+    margin-left: unset;
+  }
+
+  .logo h1 {
+    font-size: 2em;
+}
+  nav ul {
     display: none;
+  }
+  .profile-nav-link{
+    display: none;
+  }
+  .notiff{
+    display: none;
+  }
+  .mobile{
+    display: flex;
   }
   .joint{
     flex-direction: column;
@@ -581,6 +598,7 @@ nav li {
   .minii{
     width: 80%;
     padding: 26px;
+    margin-top: 42px;
   }
   .mini{
     display: flex;
