@@ -53,7 +53,7 @@ function Header() {
                   <Link to="/addcard" className="nav-link" onClick={toggleNav}>Add Card</Link>
                 </li>
                 <li>
-                  <Link to="/profile" className="nav-link" onClick={toggleNav}>ijtas_muiz</Link>
+                  <Link to="/profile" className="nav-link" onClick={toggleNav}>Profile</Link>
                 </li>
               </ul>
             </nav>
