@@ -681,8 +681,7 @@ nav li {
   display: none;
 }
 .enter {
-  display: flex
-;
+  display: flex;
   font-size: 13px;
   gap: -23px;
   justify-content: space-between;
@@ -692,5 +691,14 @@ nav li {
 
 .major-donation{
   margin-top: -16px;
+}
+
+.enterjoin {
+  display: flex;
+  font-size: 13px;
+  gap: -23px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 26px;
 }
 }
