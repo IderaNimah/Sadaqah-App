@@ -587,6 +587,11 @@ nav li {
     display: none;
   }
   .notiff{
+    border: unset;
+    width: unset;
+    padding: unset;
+  }
+  .notif input {
     display: none;
   }
   .mobile{

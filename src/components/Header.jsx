@@ -32,6 +32,7 @@ function Header() {
           </div>
   
             <div className="profile-header">
+              <img src="./assets/notification.png" alt="notification" />
               <img src="./assets/Profileheader.png" alt="profileheader" />
               {/* <p>ijtas_muiz</p> */}
               <Link to="/profile" className="profile-nav-link">ijtas_muiz</Link>
