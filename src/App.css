@@ -5,7 +5,9 @@
   margin: 0;
 }
 
-.home, .explore, .myProfile{
+.home,
+.explore,
+.myProfile {
   max-width: 1440px;
   margin: 0px auto;
 }
@@ -518,7 +520,6 @@ nav li {
   gap: 22px;
 }
 
-
 .subProfile h4 {
   color: #1369b9;
   font-weight: 500;
@@ -547,18 +548,18 @@ nav li {
   font-size: 17px;
   font-family: "Poppins", serif;
 }
-.profileField h4{
+.profileField h4 {
   font-size: 20px;
 }
 .profilePin {
   margin-top: 30px;
   line-height: 30px;
 }
-.profilePin h5{
+.profilePin h5 {
   font-size: 20px;
   font-weight: 400;
 }
-.profilePin h4{
+.profilePin h4 {
   color: #1369b9;
 }
 .profileButton {
@@ -577,14 +578,11 @@ nav li {
 }
 
 @media (max-width: 428px) {
-  .addCard{
-    padding-inline: 10px;
-  }
-  .home{
+  .home {
     margin-top: 50px;
     margin-inline: 10px;
   }
-  .let{
+  .let {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -599,12 +597,12 @@ nav li {
     font-size: 2em;
     cursor: pointer; /* Show it's clickable */
   }
-  
+
   /* Hide desktop nav on mobile */
   .desktop-nav {
     display: none;
   }
-  
+
   /* Mobile nav styling - full width and fixed during scroll */
   .mobile-nav {
     position: fixed; /* Fixed position so it doesn't scroll */
@@ -615,7 +613,7 @@ nav li {
     z-index: 100;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  
+
   .mobile-nav ul {
     display: flex;
     flex-direction: column;
@@ -623,14 +621,14 @@ nav li {
     margin: 0;
     width: 100%; /* Ensure the list uses full width */
   }
-  
+
   .mobile-nav li {
     margin: 0.75rem 0;
     list-style: none;
     width: 100%; /* Full width list items */
     text-align: center;
   }
-  
+
   .mobile-nav .nav-link {
     display: block;
     width: 100%; /* Full width links */
@@ -640,35 +638,34 @@ nav li {
     font-weight: 500;
     box-sizing: border-box; /* Include padding in width calculation */
   }
-  
+
   .profile-nav-link {
     display: none;
   }
-  
+
   .notiff {
     border: unset;
     width: unset;
     padding: unset;
   }
-  
+
   .notif input {
     display: none;
   }
-  
+
   .mobile {
     display: flex;
   }
 
-
-  .joint{
+  .joint {
     flex-direction: column;
   }
-  .minii{
+  .minii {
     width: 80%;
     padding: 26px;
     margin-top: 42px;
   }
-  .mini{
+  .mini {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -681,151 +678,153 @@ nav li {
     gap: 10px;
     justify-content: space-between;
     align-items: center;
-}
-.update{
-  width: 100%;
-}
-.href {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-.donation{
-  background-color: #212529;
-  height: auto;
-  width: 110%;
-  max-width: 350px;
-  display: flex;
-  flex-direction: column; 
-  justify-content: space-between; 
-  align-items: stretch; 
-  padding: 15px;
-  border-radius: 10px;
-  text-align: left;
-}
-.don {
-  width: 100%;
-}
-.don h2 {
-  font-size: 25px;
-  margin-bottom: 10px;
-}
+  }
+  .update {
+    width: 100%;
+  }
+  .href {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .donation {
+    background-color: #212529;
+    height: auto;
+    width: 110%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+  }
+  .don {
+    width: 100%;
+  }
+  .don h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
 
-.donlink {
-  width: 100%;
-  margin-top: 15px;
-}
-.donhref{
-  display: flex;
-  justify-content: center;
-  width: 90%;
-  padding: 10px;
-  border-radius: 5px;
-  text-decoration: none;
-}
-.don-img{
-  display: none;
-}
+  .donlink {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .donhref {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  .don-img {
+    display: none;
+  }
 
-.refer{
-  margin-top: 40px;
-  background-color: white;
-  height: auto;
-  width: 110%;
-  max-width: 370px;
-  display: flex;
-  flex-direction: column; 
-  justify-content: space-between; 
-  align-items: stretch; 
-  padding: 15px;
-  border-radius: 10px;
-  text-align: left;
-}
-.ref {
-  margin-top: -21px;
-  width: 91%;
-}
-.ref h2 {
-  font-size: 25px;
-  margin-bottom: 10px;
-}
+  .refer {
+    margin-top: 40px;
+    background-color: white;
+    height: auto;
+    width: 110%;
+    max-width: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+  }
+  .ref {
+    margin-top: -21px;
+    width: 91%;
+  }
+  .ref h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
 
-.referlink {
-  width: 100%;
-  margin-top: 15px;
-}
-.referhref{
-  display: flex;
-  justify-content: center;
-  width: 90%;
-  padding: 10px;
-  border-radius: 5px;
-  text-decoration: none;
+  .referlink {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .referhref {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  .referimg img {
+    display: none;
+  }
+  .enter {
+    display: flex;
+    font-size: 13px;
+    gap: -23px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 26px;
+  }
 
-}
-.referimg img{
-  display: none;
-}
-.enter {
-  display: flex;
-  font-size: 13px;
-  gap: -23px;
-  justify-content: space-between;
-  align-items: center;
-  margin: 26px;
-}
+  .major-donation {
+    margin-top: -16px;
+  }
 
-.major-donation{
-  margin-top: -16px;
-}
+  .enterjoin {
+    display: flex;
+    font-size: 13px;
+    gap: -23px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 26px;
+  }
+  .joinss input[type="range"] {
+    width: 100%;
+  }
 
-.enterjoin {
-  display: flex;
-  font-size: 13px;
-  gap: -23px;
-  justify-content: space-between;
-  align-items: center;
-  margin: 26px;
-}
-.joinss input[type="range"] {
-  width: 100%;
-}
+  /* Add Cards */
+  .addCard {
+    width: 95%;
+    margin-top: 26px;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 10px;
+  }
+  .addCard h2 {
+    margin-left: 14px;
+  }
+  .cards {
+    flex-direction: column;
+    width: unset;
+  }
+  .blueCard,
+  .orangeCard,
+  .emptyCard {
+    width: 361px;
+  }
 
-/* Add Cards */
-.addCard{
-  width: 100%;
-  margin-top: 26px;
-  display: flex;
-  flex-direction: column;
-}
-.addCard h2{
-  margin-left: 14px;
-}
-.cards{
-  flex-direction: column;
-  width: unset;
-}
-.blueCard, .orangeCard, .emptyCard{
-  width: 361px;
-}
+  /* Explore */
+  .headexplore {
+    margin: auto;
+    margin-top: unset;
+    width: 85%;
+  }
+  .headexplore h2 {
+    margin-top: 28px;
+  }
 
-/* Explore */
-.headexplore {
-  margin: auto;
-  margin-top: unset;
-  width: 85%;
-}
-.headexplore h2{
-  margin-top: 28px;
-}
-
-/* Profile */
-.myProfile {
-  margin: auto;
-  margin-top: 50px;
-  width: 91%;
-}
-.profileField input{
-  width: 90%;
-}
+  /* Profile */
+  .myProfile {
+    margin: auto;
+    margin-top: 50px;
+    width: 91%;
+  }
+  .profileField input {
+    width: 90%;
+  }
 }
