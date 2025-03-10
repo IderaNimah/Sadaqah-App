@@ -577,6 +577,18 @@ nav li {
 }
 
 @media (max-width: 428px) {
+  .addCard{
+    padding-inline: 10px;
+  }
+  .home{
+    margin-top: 50px;
+    margin-inline: 10px;
+  }
+  .let{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .headeer {
     display: flex;
     margin-left: unset;
@@ -682,7 +694,7 @@ nav li {
   background-color: #212529;
   height: auto;
   width: 110%;
-  max-width: 370px;
+  max-width: 350px;
   display: flex;
   flex-direction: column; 
   justify-content: space-between; 
