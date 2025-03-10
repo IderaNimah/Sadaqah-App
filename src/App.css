@@ -4,6 +4,11 @@
   padding: 0;
   margin: 0;
 }
+
+.home, .explore, .myProfile{
+  max-width: 1440px;
+  margin: 0px auto;
+}
 body {
   font-family: "Poppins", serif;
   background-color: #eff0f2;
@@ -18,7 +23,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 200px;
+  margin: 0px auto;
 }
 .logo h1 {
   font-size: 2.5em;
@@ -102,7 +107,7 @@ nav li {
   padding: 40px;
   margin: auto;
   border: 1px #dee2e6 solid;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   align-items: center;
   border-radius: 10px;
   margin-top: 90px;
@@ -137,7 +142,7 @@ nav li {
   align-items: center;
   margin: auto;
   margin-top: 50px;
-  width: 75%;
+  /* width: 75%; */
 }
 .donation {
   background-color: black;
@@ -225,7 +230,7 @@ nav li {
 .profile {
   background: #ffff;
   padding: 20px;
-  width: 310px;
+  width: 300px;
   border-radius: 5px;
 }
 
@@ -263,7 +268,7 @@ nav li {
   justify-content: space-between;
   align-items: center;
   margin: 69px auto;
-  max-width: 1440px;
+  /* max-width: 1440px; */
 }
 
 /*  */
@@ -280,11 +285,13 @@ nav li {
 }
 
 .let {
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap; */
   gap: 18px; /* Space between components */
   justify-content: center; /* Center alignment for components */
   margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .joins {
@@ -402,7 +409,6 @@ nav li {
 .headexplore {
   margin: auto;
   margin-top: 50px;
-  width: 75%;
 }
 .headexplore h2 {
   margin-top: 60px;
@@ -503,7 +509,6 @@ nav li {
 .myProfile {
   margin: auto;
   margin-top: 50px;
-  width: 75%;
 }
 
 .subProfile {

@@ -2,7 +2,7 @@ import JoinDonation from "./JoinDonation"
 
 function Explore() {
   return (
-  <>
+  <div className="explore">
     <div className="headexplore">
       <h2>Explore</h2>
       <div className="search-container">
@@ -17,7 +17,7 @@ function Explore() {
       </div>
       </div>
       <JoinDonation/>
-  </>
+  </div>
   );
 }
 
