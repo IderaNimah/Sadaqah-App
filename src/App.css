@@ -577,7 +577,8 @@ nav li {
   cursor: pointer;
 }
 
-@media (max-width: 428px) {
+
+@media (max-width: 458px) {
 
   .close-nav {
     display: flex;
