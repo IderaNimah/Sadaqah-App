@@ -39,9 +39,14 @@ function Header() {
             </ul>
           </nav>
           
-          {/* Mobile navigation with more visible state display */}
+          {/* Mobile navigation with close button */}
           {isNavOpen && (
             <nav className="mobile-nav">
+              <div className="close-nav">
+                <button onClick={toggleNav} className="close-button">
+                  &times;
+                </button>
+              </div>
               <ul>
                 <li>
                   <Link to="/" className="nav-link" onClick={toggleNav}>Home</Link>
