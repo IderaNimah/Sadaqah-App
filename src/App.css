@@ -578,7 +578,7 @@ nav li {
 }
 
 
-@media (max-width: 458px) {
+@media (max-width: 450px) {
 
   .close-nav {
     display: flex;
@@ -759,7 +759,7 @@ nav li {
     margin-top: 40px;
     background-color: white;
     height: auto;
-    width: 110%;
+    width: 100%;
     max-width: 370px;
     display: flex;
     flex-direction: column;
